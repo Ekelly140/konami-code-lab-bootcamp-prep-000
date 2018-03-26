@@ -8,8 +8,11 @@ function init() {
     body.addEventListener('keydown', function(e) {
     check.push(e.which)
     console.log(check);
-    if (parseInt(check) === code){
-      alert("Hurray!")
+    if (check === code){
+      console.log("Hurray!")
+    }
+    else if(check.length === code.length){
+      
     }
   });
 
