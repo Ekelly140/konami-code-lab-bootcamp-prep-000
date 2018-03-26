@@ -12,7 +12,7 @@ function init() {
       console.log("Hurray!")
     }
     else if(check.length === code.length){
-      
+      check =[]
     }
   });
 
