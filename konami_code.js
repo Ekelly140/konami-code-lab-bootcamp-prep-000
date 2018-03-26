@@ -6,14 +6,18 @@ var i = 0
 function init() {
   
     body.addEventListener('keydown', function(e) {
-    check.push(e.which)
     console.log(check);
-    if (check[i] === code[i]){
-      console.log("Hurray!")
+    if (parseInt(e.detail || e.which) === code[i]){
+       check.push(e.which)
       i++
+        if(i=== code.length){
+          console.log(hurray)
+          i=0
+        }
     }
-    else if(check.length === code.length){
+    else {
       check =[]
+      i= 0 
     }
   });
 
