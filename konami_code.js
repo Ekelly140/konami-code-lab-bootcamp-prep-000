@@ -9,6 +9,7 @@ function init() {
     console.log(check);
     if (parseInt(e.detail || e.which) === code[i]){
        check.push(e.which)
+       console.log(check)
       i++
         if(i=== code.length){
           console.log(hurray)
@@ -16,6 +17,7 @@ function init() {
         }
     }
     else {
+      console.log("Wrong")
       check =[]
       i= 0 
     }
