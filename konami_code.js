@@ -12,7 +12,7 @@ function init() {
        console.log(check)
       i++
         if(i=== code.length){
-          alert("hurray")
+          alert("Unlimited Lives")
           i=0
         }
     }
