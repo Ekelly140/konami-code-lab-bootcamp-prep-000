@@ -12,7 +12,7 @@ function init() {
        console.log(check)
       i++
         if(i=== code.length){
-          console.log(hurray)
+          alert("hurray")
           i=0
         }
     }
